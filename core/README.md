@@ -19,9 +19,9 @@ why we created Stylix, and why we think you'll love it.
 Stylix can be installed with **npm** or **yarn**:
 
 ```sh
-$ npm install --save @stylix/core
+$ npm install --save @stylix1/core
 # or
-$ yard add @stylix/core
+$ yard add @stylix1/core
 ```
 
 Stylix is compatible with React 16.8+.
@@ -30,11 +30,11 @@ Stylix is compatible with React 16.8+.
 
 ### Wrap your app with a `<StylixProvider>` element
 
-Start by importing `StylixProvider` from `@stylix/core` and placing a `<StylixProvider>` element at
+Start by importing `StylixProvider` from `@stylix1/core` and placing a `<StylixProvider>` element at
 the root of your app:
 
 ```tsx
-import { StylixProvider } from '@stylix/core';
+import { StylixProvider } from '@stylix1/core';
 
 function App() {
   return (
@@ -52,11 +52,11 @@ options, can be customized.
 
 ### Style your markup with Stylix HTML tags
 
-Import the default `$` object from `@stylix/core` and use it to render stylable HTML elements in
+Import the default `$` object from `@stylix1/core` and use it to render stylable HTML elements in
 place of the regular old tags:
 
 ```tsx
-import $ from '@stylix/core';
+import $ from '@stylix1/core';
 
 <$.div
   color="SkyBlue"

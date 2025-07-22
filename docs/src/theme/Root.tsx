@@ -1,10 +1,10 @@
 import Head from '@docusaurus/Head';
-import { customProps, StylixProvider, useGlobalStyles } from '@stylix/core';
+import { customProps, StylixProvider, useGlobalStyles } from '@stylix1/core';
 import React from 'react';
 
 const myCustomProps = customProps({});
 
-declare module '@stylix/core' {
+declare module '@stylix1/core' {
   interface StylixPropsExtensions {}
 }
 

@@ -3,7 +3,7 @@ import { faLevelDownAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo, { logoSrc } from '@site/src/components/HomepageFeatures/Logo';
 import { prismTheme } from '@site/src/prismTheme';
-import $, { StylixProps } from '@stylix/core';
+import $, { StylixProps } from '@stylix1/core';
 import CodeBlock from '@theme/CodeBlock';
 import Layout from '@theme/Layout';
 import TabItem from '@theme/TabItem';
@@ -210,13 +210,13 @@ export default function Home() {
 
               <Tabs>
                 <TabItem value="npm" label="npm">
-                  <CodeBlock language="bash">{`npm install @stylix/core`}</CodeBlock>
+                  <CodeBlock language="bash">{`npm install @stylix1/core`}</CodeBlock>
                 </TabItem>
                 <TabItem value="yarn" label="yarn">
-                  <CodeBlock language="bash">{`yarn add @stylix/core`}</CodeBlock>
+                  <CodeBlock language="bash">{`yarn add @stylix1/core`}</CodeBlock>
                 </TabItem>
                 <TabItem value="pnpm" label="pnpm">
-                  <CodeBlock language="bash">{`pnpm add @stylix/core`}</CodeBlock>
+                  <CodeBlock language="bash">{`pnpm add @stylix1/core`}</CodeBlock>
                 </TabItem>
               </Tabs>
 
@@ -224,7 +224,7 @@ export default function Home() {
                 Then, wrap your app with a <code>&lt;StylixProvider&gt;</code> element:
               </$.p>
 
-              <CodeBlock language="tsx">{`import { StylixProvider } from '@stylix/core';
+              <CodeBlock language="tsx">{`import { StylixProvider } from '@stylix1/core';
 
 function App() {
   return (
@@ -236,10 +236,10 @@ function App() {
 
               <$.p margin-bottom={50}>
                 Now use elements like <code>{'<$.div>'}</code> (<code>$</code> is the default export
-                from <code>@stylix/core</code>) and style them with any css properties:
+                from <code>@stylix1/core</code>) and style them with any css properties:
               </$.p>
 
-              <CodeEditor>{`import $ from '@stylix/core';
+              <CodeEditor>{`import $ from '@stylix1/core';
 
 function MyComponent() {
   return (

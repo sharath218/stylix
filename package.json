@@ -1,5 +1,5 @@
 {
-  "name": "@stylix/monorepo",
+  "name": "@stylix1/core",
   "workspaces": [
     "core",
     "docs"

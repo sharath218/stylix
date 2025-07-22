@@ -1,9 +1,9 @@
-import $, { StylixProps } from '@stylix/core';
+import $, { StylixProps } from '@stylix1/core';
 import * as React from 'react';
 import { LivePreview } from 'react-live';
 
 export const logoSrc = ` 
-import $ from '@stylix/core';
+import $ from '@stylix1/core';
 
 // Add CSS styles directly to your html elements:
 function Logo() {
